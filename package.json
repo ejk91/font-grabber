@@ -1,0 +1,26 @@
+{
+  "name": "webflow-font-family-scraper",
+  "version": "1.0.0",
+  "author": "Enoch Kim",
+  "license": "UNLICENSED",
+  "private": true,
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "start": "node ./server/index.js",
+    "dev-start": "nodemon ./server/index.js",
+    "test": "mocha test"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "website-scraper": "^3.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0",
+    "nodemon": "^1.11.0",
+    "request": "^2.81.0"
+  }
+}
